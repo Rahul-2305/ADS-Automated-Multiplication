@@ -65,6 +65,7 @@ with st.expander("Don't know what factor sheets is ?"):
     st.write("It can be any variable as long as you know the variable name")
     st.write("Here is what your input factor sheet should look like:")
     st.image("https://private-user-images.githubusercontent.com/83655233/529969021-face185d-ee66-4346-b56e-ec1c6eb5b989.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY1NzEyNDAsIm5iZiI6MTc2NjU3MDk0MCwicGF0aCI6Ii84MzY1NTIzMy81Mjk5NjkwMjEtZmFjZTE4NWQtZWU2Ni00MzQ2LWI1NmUtZWMxYzZlYjViOTg5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI0VDEwMDkwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWViM2Q3NzE3N2E3ZWIwNzhhOTU5ZThjYmY2OWM2ODJlZDQ5NDZiMDFlZmY4N2M0ZTRjYTg3MmRjMWFiZDMxODgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.RR-Jl2CdSAsCad5pmzbyTAD7crrWv0Kc9tSMz54solI")
+    st.write("If Image is unavailable, then refer to the this link :https://github.com/Rahul-2305/ADS-Automated-Multiplication:")
 
 factor_file = st.file_uploader("Please select a xlsx file only")
 
@@ -123,4 +124,5 @@ if st.button("Want some balloons 🎈"):
     st.balloons() 
 
 st.caption("© 2025 Beeraboina Rahul")
+
 
