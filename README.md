@@ -2,6 +2,8 @@ This is Python-Automated code that will multiply the a file from a excel sheet i
 
 Multiplication time has been reduced by 80%-97% by this code if running in bulk capacity.
 
+Deployed on Streamlit : https://ads-multiplication-beeraboina-rahul.streamlit.app/
+
 **FACTOR FILE FILE LAYOUT**
 
 <img width="418" height="118" alt="Factor_File_Example" src="https://github.com/user-attachments/assets/face185d-ee66-4346-b56e-ec1c6eb5b989" />
