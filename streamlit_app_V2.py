@@ -189,7 +189,7 @@ st.caption(f"Process took {runtime:.2f} seconds")
 with st.expander("About this App"):
     st.write("Created by Beeraboina Rahul")
     st.write("Made in Python & Streamlit")
-    st.write("https://rahul-2305.github.io/Website/")
+    st.write("Know more about Beeraboina Rahul at https://rahul-2305.github.io/Website/")
 
 col1, col2 = st.columns(2)
 
@@ -208,3 +208,4 @@ with center:
 
 
 st.caption("© 2025 Beeraboina Rahul")
+
