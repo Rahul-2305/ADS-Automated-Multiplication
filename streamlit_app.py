@@ -117,12 +117,13 @@ with st.expander("About this App"):
   st.write("Created by Beeraboina Rahul")
   st.write("Made in Python & Streamlit")
   st.write("Click on the below link to know more about Beeraboina Rahul")
-  st.write("https://rahul-2305.github.io/Website/")
+  st.write("https://beeraboina-rahul-website.streamlit.app/")
 
 
 if st.button("Want some balloons 🎈"):
     st.balloons() 
 
 st.caption("© 2025 Beeraboina Rahul")
+
 
 
