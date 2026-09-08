@@ -136,6 +136,9 @@ if uploaded_files and factor_file:
         for i, file in enumerate(uploaded_files):
 
             ads_df = pd.read_csv(file)
+            for col in ads_df.columns:
+                if col != "Mapping":
+                    ads_df[col] = pd.to_numeric(ads_df[col], errors="coerce").astype(float)            
             selected_sheet = sheet_mapping[file.name]
 
             factor_df = pd.read_excel(
