@@ -426,4 +426,3 @@ with center:
 
 
 st.caption("© 2025 Beeraboina Rahul")
-```
